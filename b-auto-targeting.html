@@ -44,6 +44,7 @@
 
         if(target == null){
           //If enemy has health, make it the target
+          //If enemy has no health, leave target null
           if(enemy.health > 0){
             target = enemy;
           }
